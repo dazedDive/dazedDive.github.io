@@ -1,0 +1,44 @@
+.biger{
+    &:hover{
+        transition:0.3s;
+        transform: scale(1.1,1.1) rotate(-2deg);
+        text-shadow: 1px 1px 1px black;
+    }
+}
+.bigerbis{
+    &:hover{
+        transition:0.3s;
+        transform: scale(1.1,1.1);
+        text-shadow: 2px 1px 1px black;
+    }
+}
+
+.bigertext{
+    &:hover{
+        
+        transform: scale(1.1,1.1) rotate(-2deg);;
+        }
+}
+
+.selected{
+    &::selection{
+        color:white;
+        background:black;
+    }
+}
+
+.selectedpink{
+    &::selection{
+        color:white;
+        background:#ea0a8b;
+    }
+}
+.starpink{
+    opacity: 1;
+        &:hover{
+    
+    opacity: 0;
+    transform: rotate(720deg) scale(3,3);
+    transition:3s;
+        } 
+}
